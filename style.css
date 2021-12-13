@@ -1,0 +1,123 @@
+
+:root {
+  --background-primary: rgb(235, 232, 230);
+  --highlight-primary: #99D2F7;
+  }
+
+body{
+}
+
+.title-container {
+    height: 40vh;
+    background-color: var(--background-primary);
+}
+
+.title-hello{
+    font-family: 'Dancing Script', cursive;
+    font-size: 10rem;
+    font-weight: 700;
+}
+
+.title-name{
+    color: rgb(1, 1, 1);
+    background-color: #99D2F7;
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: 800;
+
+    position relative;
+    top:  -2.5rem;
+    left: 3rem;
+}
+.title-tag{
+
+    font-family: 'Dancing Script', cursive;
+    color: rgb(1, 1, 1);
+    font-size: 2rem;
+    font-weight: 600;
+
+    position: relative;
+    top:-2rem;
+
+}
+
+.about-me-container{
+    width: 80vw;
+    height: 40vh;
+
+    margin-left: 10vw;
+
+    background-color: var(--highlight-primary);
+}
+
+.about-me-text{
+
+  font-family: 'Dancing Script', cursive;
+  color: rgb(1, 1, 1);
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  top: 5rem;
+  padding-left: 15%; important;
+  padding-right: 15%;
+}
+
+.about-me-image{
+   width: 17vw;
+   height: 17vw;
+
+   border-radius: 100%;
+
+   box-shadow: 10px 5px 10px black;
+}
+
+.contact-me-container{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+  font-family: 'Dancing Script', cursive;
+  color: rgb(1, 1, 1);
+  font-size: 2rem;
+}
+
+.contact-me-icon{
+  width: 3rem;
+  height: 3rem;
+}
+
+.achievements-container{
+  width: 80vw;
+  margin-left: 10vw;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.acheivements{
+  font-family: 'Dancing Script', cursive;
+  color: rgb(1, 1, 1);
+  font-size: 2rem;
+  font-weight: 600;
+
+  position: relative;
+  top:-2rem;
+}
+
+.achievements-title{
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+}
+.achievements-image{
+   width: 19vw;
+   height: 19vw;
+
+   border-radius: 100%;
+
+   box-shadow: 10px 5px 10px black;
+}
+
+.box-center{
+  width:20vw;
+}
